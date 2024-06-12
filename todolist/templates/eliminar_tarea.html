@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<h3>Eliminar tarea</h3>
+<form method="post">
+    {% csrf_token %}
+    <h3>Desea eliminar la tarea llamada "{{tarea.title}}" </h3>
+    <input
+        value = "Submit" 
+        type = "submit"
+        onclick="location.href='{% url 'crear_tarea' %}'"> 
+</form>
+{% endblock content %}
