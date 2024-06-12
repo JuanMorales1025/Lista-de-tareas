@@ -1,7 +1,3 @@
-Here's a README for your project:
-
----
-
 # To-Do List Project with Django and Python
 
 This project is a web-based to-do list application built using Django and Python. It allows users to add, list, edit, and delete tasks. The project serves as a practical guide for learning the fundamentals of Django, including environment setup, model creation, views, templates, and database management with SQLite.
@@ -68,6 +64,3 @@ This project is licensed under the MIT License.
 
 - Thanks to the Django community for the excellent documentation and support.
 
----
-
-Feel free to customize this README as needed for your specific project details.
