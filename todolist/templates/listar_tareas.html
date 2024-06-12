@@ -1,0 +1,25 @@
+{% extends 'base.html'%}
+{% block content %}
+<table>
+    <thead>
+        <tr>
+            <th>Titulo</th>
+            <th>Descripcion</th>
+            <th>Fecha de creación</th>
+            <th>Eliminar</th>
+            <th>Editar</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for listTarea in lista_tarea %}
+        <tr>
+            <th>{{ listTarea.title}}</th>
+            <th>{{ listTarea.description}}</th>
+            <th>{{ listTarea.created_date}}</th>
+            <th><a href="{% url 'eliminar_tarea' listTarea.id %}">Eliminar</a></th>
+            <th><a href="{% url 'editar_tarea' listTarea.id %}">Editar</a></th>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
