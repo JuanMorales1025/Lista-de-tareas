@@ -41,7 +41,6 @@ This project is a web-based to-do list application built using Django and Python
    ```
 
 ### Running the Application
-
 1. Apply migrations:
    ```bash
    python manage.py migrate
@@ -53,14 +52,11 @@ This project is a web-based to-do list application built using Django and Python
 3. Open your web browser and go to `http://127.0.0.1:8000` to view the application.
 
 ## Contributing
-
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
 ## License
-
 This project is licensed under the MIT License.
 
 ## Acknowledgements
-
 - Thanks to the Django community for the excellent documentation and support.
 
